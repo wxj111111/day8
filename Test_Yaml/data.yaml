@@ -1,0 +1,38 @@
+
+#animals: pets
+#dic: {"a":1,"b":2}
+
+#YML_Data:
+#  - 123
+#  - 346
+
+#animal: ["a", "b"]
+
+#value: "hello"
+
+#value1: true
+#value2: false
+
+#value1: 12
+#valuw2: 12.012
+
+#value: ~
+
+#value: 2018-02-01 09:36:52
+
+Test:
+  code: &scode
+    address: "东城"
+    email: "123@163.com"
+    phone: "1234535"
+
+  login_data01:
+    name: qwe
+    pwd: 1234
+    <<: *scode
+#  login_data02:
+#    name: asd
+#    pwd: 1256
+#  login_data03:
+#    name: zxc
+#    pwd: 1278

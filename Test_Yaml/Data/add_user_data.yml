@@ -1,0 +1,17 @@
+Add_User_Data:
+  add_user001:
+    name: "x"
+    phone: "15888888888"
+    expect: "x"
+  add_user002:
+    name: ""
+    phone: "13966666666"
+    expect: "13966666666"
+  add_user003:
+    name: "x"
+    phone: ""
+    expect: "x"
+  add_user004:
+    name: ""
+    phone: ""
+    expect: ""
